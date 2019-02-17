@@ -16,7 +16,7 @@ while(True):
     for(x,y,w,h) in faces:
         cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),4);
         images=images+1;
-        cv2.imwrite("Images/User."+str(id)+"."+str(images)+".jpg",gray[y:y+h,x:x+w]);
+        cv2.imwrite("User."+str(id)+"."+str(images)+".jpg",gray[y:y+h,x:x+w]);
         #print(faces);
         #print(x);
         #print(y);

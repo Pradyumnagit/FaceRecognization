@@ -1,0 +1,21 @@
+1- 1st you have to run the facedetection.py if it detect your face and eye successfuly the go to next step;
+2-2nd you have to run the dataset.py;
+3-3rd you have to run train.py;
+4-4th you have to run predict.py;
+
+
+
+
+##############################################################
+Notes:
+  * Don't change any thing in code and file structure because all are depends upon each other;
+
+
+
+
+
+
+
+
+
+                           &copy;Pradyumna Kumar das

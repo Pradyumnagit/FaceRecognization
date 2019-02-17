@@ -23,5 +23,5 @@ def getPath(path):
         
 ids,faces=getPath(path);
 recognizer.train(faces,np.array(ids));
-recognizer.save('recognizer/train.yml');
+recognizer.save('train.yml');
 cv2.destroyAllWindows();

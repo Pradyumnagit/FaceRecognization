@@ -8,7 +8,7 @@ recognizer=cv2.createLBPHFaceRecognizer();
 facedetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml');
 eyedetect=cv2.CascadeClassifier('haarcascade_eye.xml');
 camera=cv2.VideoCapture(0);
-recognizer.load('recognizer\\train.yml');
+recognizer.load('train.yml');
 id=0;
 font=cv2.cv.InitFont(cv2.cv.CV_FONT_HERSHEY_COMPLEX_SMALL,5,1,0,4);
 while(True):
